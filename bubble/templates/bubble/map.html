@@ -1,0 +1,28 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'bubble/style.css' %}">
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Bubble Player
+  </title>
+</head>
+
+<body>
+  <h1> Score: {{score}} </h1>
+  <table>
+    {% for list in buttons %}
+    <tr>
+      {% for button in list %}
+      <td>
+        <a class={{button.class}} href="{% url 'select' forloop.parentloop.counter0 forloop.counter0%}"> </a>
+      </td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+  <a class="button" href="{% url 'map' %}"> New Game </a> <a class="button" href="{% url 'machine' %}"> Machine Play </a>
+</body>
+</html>
