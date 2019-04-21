@@ -166,7 +166,7 @@ def click_move(mat, moves, num_moves):
         # get the compact score for current move of current matrix
         compact_score = compactness(temp)
 
-        current_score = move_score + (1-0.01*num_moves)*compact_score
+        current_score = move_score + compact_score
         if current_score > best_total_score:
             best_total_score = current_score
             best_mat = temp
@@ -468,9 +468,9 @@ def compute_compactness(distance,max_dist,modules):
                 module_size=[len(modules[b[i]]) for i in range(len(b)) ]
                 #print(module_size)
                 if sum(module_size)<6:
-                    compactness+=sum(module_size)*(sum(module_size)-1)*(1/(d+2))
+                    compactness+=sum(module_size)*(sum(module_size)-1)*(1/(d))
                 else:
-                    compactness+=sum(module_size)*(sum(module_size)+1)*(1/(d+2))
+                    compactness+=sum(module_size)*(sum(module_size)+1)*(1/(d))
         #print(d,compactness)
         d+=1
     #print('compact:',compactness)
