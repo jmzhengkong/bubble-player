@@ -6,7 +6,7 @@
   text-decoration: none;
   width: 5px;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .green-button {
@@ -17,7 +17,7 @@
   text-decoration: none;
   width: 5px;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .magenta-button {
@@ -28,7 +28,7 @@
   text-decoration: none;
   width: 5px;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .yellow-button {
@@ -39,7 +39,7 @@
   text-decoration: none;
   width: 5px;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .blue-button {
@@ -50,7 +50,7 @@
   text-decoration: none;
   width: 5px;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .no-button {
@@ -61,7 +61,7 @@
   text-decoration: none;
   width: 5px;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: default;
   pointer-events: none;
 }
