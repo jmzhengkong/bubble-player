@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'bubble/style.css' %}">
 <!DOCTYPE html>
 <html>
 
@@ -9,8 +11,10 @@
 </head>
 
 <body>
-  <h1> Welcome to the game Bubble! </h1>
-  <a href="{% url 'map' %}"> Play </a>
+  <center>
+    <h1 class="index-h1"> Welcome to the game Bubble! </h1>
+    <a class="button" href="{% url 'map' %}"> Play </a>
+  </center>
 </body>
 
 </html>

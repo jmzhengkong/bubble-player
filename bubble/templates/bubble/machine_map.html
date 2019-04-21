@@ -11,18 +11,21 @@
 </head>
 
 <body>
-  <h1> Score: {{score}} </h1>
-  <table>
-    {% for list in buttons %}
-    <tr>
-      {% for button in list %}
-      <td>
-        <a class={{button.class}} href="{% url 'machine-select'%}"> </a>
-      </td>
+  <center>
+    <h1> Score: {{score}} </h1>
+    <table class="web-table">
+      {% for list in buttons %}
+      <tr>
+        {% for button in list %}
+        <td>
+          <a class={{button.class}} href="{% url 'machine-select'%}"> </a>
+        </td>
+        {% endfor %}
+      </tr>
       {% endfor %}
-    </tr>
-    {% endfor %}
-  </table>
-  <a class="button" href="{% url 'map' %}"> New Game </a> <a class="button" href="{% url 'machine' %}"> Machine Play </a>
+    </table>
+    <a class="button" href="{% url 'map' %}"> New Game </a> <a class="button" href="{% url 'machine' %}"> Machine Play </a>
+  </center>
 </body>
+
 </html>
