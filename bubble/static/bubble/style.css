@@ -4,9 +4,9 @@
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
 }
 
 .green-button {
@@ -15,9 +15,9 @@
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
 }
 
 .magenta-button {
@@ -26,9 +26,9 @@
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
 }
 
 .yellow-button {
@@ -37,9 +37,9 @@
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
 }
 
 .blue-button {
@@ -48,9 +48,9 @@
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
 }
 
 .no-button {
@@ -59,9 +59,9 @@
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
   cursor: default;
   pointer-events: none;
 }
